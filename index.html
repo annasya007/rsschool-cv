@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Markdown and Git</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="screen" href="style.css">
+	<link rel="icon" href="./assets/cv.ico">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<nav class="nav">
+				<ul class="nav-list">
+					<li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+					<li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+					<li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+					<li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+					<li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+					<li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+					<li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+					<li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<div class="container main-container">
+			<div class="main-container-left">
+				<section class="section" id="profile-picture">
+					<h2 class="section-title">My photo</h2>
+					<div><img src="./assets/IMG_0846.jpg" alt="my photo"></div>
+				</section>
+			</div>
+			<div class="main-container-right">
+				<section class="section" id="profile">
+					<h1 class="section-title">Anna Samokhina</h1>
+				</section>
+				<section class="section" id="contacts">
+					<h2 class="section-title">My contacts</h2>
+					<ul>
+						<li>
+							<a class="link" href="mailto:anna.a.samokhina@gmail.com">anna.a.samokhina@gmail.com</a>
+						</li>
+						<li>
+							<p>Discord: @Annasya_007</p>
+						</li>
+					</ul>
+				</section>
+				<section class="section" id="summary">
+					<h2 class="section-title">About me</h2>
+					<p>My name is Anna, I'm 36 years old. I live in nothern Italy.</p>
+				</section>
+				<section class="section" id="skills">
+						<h2 class="section-title">My skills</h2>
+						<ul>
+							<li>Symfony(PHP)</li>
+							<li>Javascript</li>
+							<li>SCSS</li>
+						</ul>
+				</section>
+				<section class="section" id="code">
+					<h2 class="section-title">My code</h2>
+					<pre><code>$fieldCriteria = new Criteria();
+					$fieldCriteria->addFilter(new EqualsFilter('name', 'addToCartPopup_active'));
+					$fieldResult = $customFieldRepository->search($fieldCriteria, $context);</code></pre>
+				</section>
+				<section class="section" id="courses">
+					<h2 class="section-title">My courses</h2>
+					<p>Around two years ago I did my first web development course where i studied the basics of HTML, CSS, JavaScript, PHP, MySql, UI/UX Design.</p>
+				</section>
+				<section class="section" id="projects">
+					<h2 class="section-title">My projects</h2>
+					<a href="https://github.com/annasya007/rsschool-cv/blob/rsschool-cv-html/cv.md">My CV project</a>
+				</section>
+				<section class="section" id="education">
+					<h2 class="section-title">My education</h2>
+					<p>I studied linguistics at Saint Petersburg State University</p>
+				</section>
+				<section class="section" id="languages">
+					<h2 class="section-title">My languages</h2>
+					<p>I speak good English (C2), good Italian (C1), not so good German (B2) (but good in understanding), I can read in French and when I was young I lived in China and studied Chinese (B1)</p>
+				</section>
+			</div>
+			
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="container footer-container">
+			<div class="footer-column">
+      <h4>Year</h4>
+        <p>2025</p>
+    </div>
+    <div class="footer-column">
+      <h4>Github account</h4>
+        <p><a href="https://github.com/annasya007">Annasya007</a></p>
+    </div>
+    <div class="footer-column">
+      <a href="https://rs.school/courses/javascript-ru" target="_blank">
+        <img src="./assets/rs-school-logo.svg" alt="RS School Logo" class="footer-logo">
+      </a>
+    </div>
+		</div>
+	</footer>
+</body>
+</html>
